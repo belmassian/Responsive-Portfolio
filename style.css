@@ -1,0 +1,262 @@
+body,h1 {
+	font-family: "Montserrat", sans-serif
+}
+@media screen and (max-width: 980px){
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 640px) {
+	h1 {
+		position:static;
+	}
+}
+img {
+	margin-bottom: -7px
+}
+.w3-row-padding img {
+	margin-bottom: 12px
+}
+.w3-light-grey.w3-padding-large.w3-padding-32.w3-margin-top {
+	color:#000!important;
+	background-color:#f1f1f1!important;
+	padding:12px 24px!important;
+	padding-top:32px!important;
+	padding-bottom:32px!important;
+	margin-top:16px!important;
+	display:inline-block;
+	width:auto;
+	margin-top:16px!important;
+	margin-bottom:16px!important;
+}
+.coverpage {
+	max-width:1500px;
+	position:relative;
+	max-width:980px;
+	margin:auto;
+	text-align:center!important;
+}
+.coverimage {
+	max-width:100%;
+	height:auto;
+}
+.title {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	padding:12px 24px!important;
+	border:1px solid #ccc!important;
+	letter-spacing:4px;
+	color:#f1f1f1!important;
+	display:inline-block;
+	width:auto;
+	text-align:center!important;
+	align-items: center;
+}
+.Megan.Elmassian {
+	font-size:48px!important;
+}
+.PHOTOGRAPHER {
+	font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    display:block;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+}
+.content {
+	max-width:980px;
+	margin:auto;
+	padding:12px 24px!important;
+	margin-top:16px!important;
+}
+.image {
+	max-width:100%;
+	height:auto;
+	margin-bottom:-7px;
+	text-align: center;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.footer {
+	padding:0.01em 16px; 
+	color:#fff!important;
+	background-color:#009688!important;
+	display:inline-block;
+	width:auto;
+	text-align:center!important;
+	margin-top:16px!important;
+	position:relative;
+	float:center;
+	height: 200px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+    float:center;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+    float:center;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    float:center;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-instagram {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    float:center;
+}
+.fa-instagram:hover {
+    background-color: #00aced;
+}
+.fa-pinterest {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    float:center;
+}
+.fa-pinterest:hover {
+    background-color: #eb8231;
+}
+.fa-tumblr {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    float:center;
+}
+.fa-tumblr:hover {
+    background-color: #e64a41;
+}
+.MeganElmassian {
+	  padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    float:center;
+}
+.input[type=text],select {
+	width:200px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	height: 150px;
+	resize:vertical;
+	margin-top:6px;
+	margin-bottom: 16px;
+}
+.input[type=submit] {
+	width:100%;
+	background-color:#4CAF50;
+	color:white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border:none;
+	border-radius:4px;
+	cursor:pointer;
+}
+.input[type=submit]:hover {
+	background-color: #45a049;
+}
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
